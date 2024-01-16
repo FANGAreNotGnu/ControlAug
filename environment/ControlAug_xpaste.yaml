@@ -1,0 +1,36 @@
+name: ControlAug_xpaste
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=20.3
+  - cudatoolkit=11.3
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - numpy=1.23.1
+  - pip:
+      - ftfy==6.1.1
+      - regex
+      - tqdm==4.65.0
+      - pycocotools==2.0.6
+      - opencv-python
+      - opencv-python
+      - timm==0.4.9
+      - dataclasses
+      - ftfy
+      - regex
+      - fasttext
+      - scikit-learn
+      - lvis
+      - fvcore
+      - easydict
+      - nltk
+      - albumentations
+      - git+https://github.com/openai/CLIP.git
+      - git+https://github.com/lvis-dataset/lvis-api.git
+      - instaboostfast
+      - git+https://github.com/facebookresearch/detectron2.git
+      - lmdb
+      - ipython
+      - eniops
