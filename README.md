@@ -1,5 +1,5 @@
 # ControlAug
-A Pipeline of Data Augmentation with Diffusion Model for Few Shot Object Detection
+Official Implementation for "Data Augmentation for Object Detection via Controllable Diffusion Models" (accepted as poster in WACV 2024).
 
 
 ## Preparations
